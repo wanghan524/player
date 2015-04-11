@@ -23,6 +23,8 @@
     self.window.rootViewController = player;
     [player release];
     [self.window makeKeyAndVisible];
+    
+    NSLog(@"zyc");
     return YES;
 }
 
